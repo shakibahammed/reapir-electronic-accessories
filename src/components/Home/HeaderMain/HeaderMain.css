@@ -1,0 +1,23 @@
+.top-banner{
+    background-image: url(../../../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 600px;
+    opacity: 5;
+}
+
+.header{
+    color:tomato;
+    text-align: center;
+    position:absolute;
+    margin-top: 200px;
+    padding: 30px;
+    text-shadow: 15px 15px 10px black;
+    margin-left: 20%;
+
+}
+.header p{
+    color:orangered;
+   font-weight: 600;
+}
