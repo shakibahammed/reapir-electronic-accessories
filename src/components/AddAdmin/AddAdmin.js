@@ -9,7 +9,7 @@ const AddAdmin = () => {
 
   const handleSubmit = (e) => {
       e.preventDefault();
-      fetch('http://localhost:5000/addAdmin', {
+      fetch('https://afternoon-woodland-27162.herokuapp.com/addAdmin', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(admin)

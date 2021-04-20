@@ -13,7 +13,7 @@ const CheckOut = () => {
     const [SelectedService, setSelectedServices] = useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:5000/servicesInfo")
+      fetch("https://afternoon-woodland-27162.herokuapp.com/servicesInfo")
         .then((res) => res.json())
         .then((data) => setSelectedServices(data));
     }, []);
@@ -29,7 +29,7 @@ const CheckOut = () => {
     };
     console.log(completeOrder);
 
-    fetch("http://localhost:5000/orderAdded", {
+    fetch("https://afternoon-woodland-27162.herokuapp.com/orderAdded", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(completeOrder),

@@ -41,7 +41,7 @@ const AddServices = () => {
         price: data.servicePrice,
       
       };
-      const url =`http://localhost:5000/addServices`;
+      const url =`https://afternoon-woodland-27162.herokuapp.com/addServices`;
 
       
       fetch(url, {

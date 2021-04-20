@@ -40,7 +40,7 @@ const Review = () => {
         price: data.companyName,
         description : data.description,
       };
-      const url =`http://localhost:5000/addReview`;
+      const url =`https://afternoon-woodland-27162.herokuapp.com/addReview`;
 
       console.log(addedReview)
       fetch(url, {

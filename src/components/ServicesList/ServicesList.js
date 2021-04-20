@@ -10,7 +10,7 @@ const ServicesList = () => {
   
     useEffect(() => {
       fetch(
-        "http://localhost:5000/orderAddedServices?email=" + loggedInUser.email,
+        "https://afternoon-woodland-27162.herokuapp.com/orderAddedServices?email=" + loggedInUser.email,
          
         {
           method: "GET",
