@@ -27,7 +27,16 @@ function App() {
 
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-
+<h1
+        style={{
+          textAlign: "center",
+          backgroundColor: "cornflowerblue",
+          padding: "5px",
+          color: "whitesmoke",
+        }}
+      >
+        Electronics Servicing
+      </h1>
      <Router>
        <Switch>
           <Route exact path="/">

@@ -34,11 +34,7 @@ const Sidebar = () => {
                 <span>Dashboard</span>
               </Link>
             </li>
-            <li>
-              <Link to="/serviceList" className="text-white">
-                <span>Services List</span>
-              </Link>
-            </li>
+            
             <li>
               <Link to="/addServices" className="text-white">
                 <span>Add Services</span>
@@ -63,7 +59,11 @@ const Sidebar = () => {
                 <span>CheckOut</span>
               </Link>
             </li>
-
+            <li>
+              <Link to="/serviceList" className="text-white">
+                <span>Services List</span>
+              </Link>
+            </li>
             <li>
               <Link to="/review" className="text-white">
                 <span>Reviews</span>
